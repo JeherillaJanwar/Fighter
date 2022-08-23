@@ -352,50 +352,18 @@ function keyPressed() {
             case '/more':
                 addMessage('click here \u2665', 'Visualize music', false, color(255, 0, 0),
                     function() {
-                        window.open('https://github.com/HoangTran0410/Visualyze-design-your-own-')
-                    });
-                addMessage('click here \u2665', 'Giphy Api', false, color(255, 100, 0),
-                    function() {
-                        window.open('https://hoangtran0410.github.io/giphyApi/')
-                    });
-                addMessage('click here \u2665', 'Sort Simulate', false, color(255, 255, 0),
-                    function() {
-                        window.open('https://hoangtran0410.github.io/Sort-Simulate/')
-                    });
-                addMessage('click here \u2665', 'Write Point', false, color(0, 255, 0),
-                    function() {
-                        window.open('https://hoangtran0410.github.io/Write-Points/')
-                    });
-                addMessage('click here \u2665', 'Maze Pacman', false, color(0, 0, 255),
-                    function() {
-                        window.open('https://hoangtran0410.github.io/Maze-generate/')
-                    });
-                addMessage('click here \u2665', 'Simple Paint', false, color(70, 60, 90),
-                    function() {
-                        window.open('https://hoangtran0410.github.io/Paint-P5/')
-                    });
-                addMessage('click here \u2665', 'Box2D Testing', false, color(255, 0, 255),
-                    function() {
-                        window.open('https://hoangtran0410.github.io/box2D-2/')
-                    });
-                addMessage('click here \u2665', 'Lsystem Simulate', false, color(255, 0, 0),
-                    function() {
-                        window.open('https://hoangtran0410.github.io/L-system-dat.gui/')
-                    });
-                addMessage('click here \u2665', 'Simple Firework', false, color(255, 100, 0),
-                    function() {
-                        window.open('https://hoangtran0410.github.io/Fire-work/')
+                        window.open('https://cutt.ly/328069/')
                     });
                 break;
 
             case '/contact':
                 addMessage('click here \u2665', 'My Github', false, color(100),
                     function() {
-                        window.open('https://github.com/HoangTran0410')
+                        window.open('https://github.com/JeherillaJanwar')
                     });
-                addMessage('click here \u2665', 'My Facebook', false, color(0, 0, 255),
+                addMessage('click here \u2665', 'My Gmail', false, color(0, 0, 255),
                     function() {
-                        window.open('https://www.facebook.com/people/Hoang-Tran/100004848287494')
+                        window.open('mailto:askishaan.sh@gmail.com')
                     });
                 break;
 
