@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Fighter</title>
+
+        <link rel="stylesheet" href="layout.css">
+        
+        <!-- Libraries -->
+        <script src="library/p5.min.js"></script>
+        <script src="library/p5.dom.min.js"></script>
+        <script src="library/p5.sound.min.js"></script>
+
+        <!-- World -->
+        <script src="objects/World/quadtree.js"></script>
+        <script src="objects/World/worlds.js"></script>
+        <script src="objects/World/gamemap.js"></script>
+        <script src="objects/World/viewport.js"></script>
+        <script src="objects/World/tree.js"></script>
+        <script src="objects/World/rock.js"></script>
+        <script src="objects/World/barrel.js"></script>
+        <script src="objects/World/water.js"></script>
+        <script src="objects/World/ice.js"></script>
+        <script src="objects/World/item.js"></script>
+        <script src="objects/World/name.js"></script>
+        <script src="objects/World/music.js"></script>
+        <script src="objects/World/notification.js"></script>
+        
+        <!-- Weapons -->
+        <script src="objects/Weapons/effects.js"></script>
+        <script src="objects/Weapons/explorePoint.js"></script>
+        <script src="objects/Weapons/redzone.js"></script>
+        <script src="objects/Weapons/portal.js"></script>
+        <script src="objects/Weapons/smoke.js"></script>
+        <script src="objects/Weapons/bullet.js"></script>
+        <script src="objects/Weapons/gun.js"></script>
+        <script src="objects/Weapons/weapons.js"></script>
+        <script src="objects/Weapons/infoWeapon.js"></script>
+        
+        <!-- Character -->
+        <script src="objects/Character/Team.js"></script>
+        <script src="objects/Character/character.js"></script>
+        <script src="objects/Character/AI_Character.js"></script>
+        <script src="objects/Character/Player.js"></script>
+        <script src="objects/Character/Boss.js"></script>
+        
+        <!-- Main -->
+        <script src="functions.js"></script>
+        <script src="sketch.js"></script>
+        <!-- <script src="min/min.js"></script> -->
+    </head>
+    <body>
+        
+        <!-- Start of CuterCounter Code -->
+        <a href="http://www.cutercounter.com/" target="_blank"><img src="http://www.cutercounter.com/hit.php?id=guvapoox&nd=7&style=8" border="0" alt="hit counter"></a>
+        <!-- End of CuterCounter Code -->    
+        
+        <!-- Start of CuterCounter Code -->
+        <a href="http://www.cutercounter.com/" target="_blank"><img src="http://www.cutercounter.com/hit.php?id=gvmapook&nd=7&style=8" border="0" alt="free counter"></a>
+        <!-- End of CuterCounter Code -->
+        
+        <!-- ============== Alert Box ============= -->
+        <div id="alert">
+            <span id="closebtn">&otimes;</span>
+        </div>
+        
+        <!-- ============== Chat Box ============= -->
+        <div id="chatBox">
+            <div id="conversation">
+            </div>
+            <div id="typing">
+                <input id="inputMes" type="text" placeholder="press Enter to add message...">
+                <input id="showHideChat" type="submit" name="Hide" value="Hide">
+            </div>
+        </div>
+        <!-- ============= Reset button ============ -->
+        <div id="menuWhenDie">
+            <input id="newGame" type="submit" value="New Game">
+            <input id="backToStartMenu" type="submit" value="Menu">
+            <input id="watch" type="submit" value="Watch">
+        </div>
+
+        <!-- ============ Custom weapons =========== -->
+        <table class="custom_weapons" id="tbCustomWeapon">
+            <tr>
+                <th colspan="2" id="nameWeapon"></th>
+            </tr>
+            <tr>
+                <td><p>Sức chứa băng đạn:</p></td>
+                <td><input type="number" id="maxBulls"></td>
+            </tr>
+            <tr>
+                <td><p>Độ trễ bắn:</p></td>
+                <td><input type="number" id="delay"></td>
+            </tr>
+            <tr>
+                <td><p>Thời gian nạp đạn:</p></td>
+                <td><input type="number" id="reloadTime"></td>
+            </tr>
+            <tr>
+                <td><p>Số đạn / lần bắn:</p></td>
+                <td><input type="number" id="bullsPerTimes"></td>
+            </tr>
+            <tr>
+                <td><p>Độ chính xác (0-1):</p></td>
+                <td><input type="number" id="hitRatio"></td>
+            </tr>
+            <tr>
+                <td><p>Sát thương:</p></td>
+                <td><input type="number" id="damage"></td>
+            </tr>
+            <tr>
+                <td><p>Độ lớn đạn:</p></td>
+                <td><input type="number" id="radius"></td>
+            </tr>
+            <tr>
+                <td><p>Tốc độ đạn:</p></td>
+                <td><input type="number" id="speed"></td>
+            </tr>
+            <tr>
+                <td><p>Thời gian sống:</p></td>
+                <td><input type="number" id="life"></td>
+            </tr>
+            <tr>
+                <!-- <td>
+                    <button class="blue" onclick="oriWeaponInfo()">Mặc định</button>
+                </td> -->
+                <td colspan="2">
+                    <button class="green" onclick="applyCustomWeapons()">Xác nhận</button>
+                    <button onclick="customWeapon('switch')">Hủy</button>
+                </td>
+            </tr>
+        </table>
+
+        <!-- ============ Curtain Menu =========== -->
+        <!-- The overlay -->
+        <div class="overlay">
+            <div class="menu">
+                <input type="text" id="ip-name"  placeholder="Enter your name...">
+                <div id="color-picker-wrapper">
+                    <input type="color" value="#ff0000" id="pickColor">
+                </div>
+                <!--Server options-->
+                <select id="worlds-select">
+                    <option value="">Random world</option>
+                    <option value="flat">Flat (fastest)</option>
+                    <option value="normal">Normal</option>
+                    <option value="beach">Beach</option>
+                    <option value="jungle">Jungle</option>
+                    <option value="winter">Winter</option>
+                    <option value="mountain">Mountain</option>
+                    <option value="barrel">Barrel</option>
+                </select>
+                <!--Play options-->
+                <button id="solo" class="btn-play green">Play Solo</button>
+                <div class="gr-btn">
+                    <button id="duo" class="btn-play item green">Play Duo</button>
+                    <button id="squad" class="btn-play item green">Play Squad</button>
+                    <button class="btn-play item blue">Join Team</button>
+                    <button class="btn-play item blue">Create Team</button>
+                </div>
+                <button id="cachchoi" class="btn-play gray">How to Play</button>
+                <div class="guide">
+                    <p><b><i>Move, Collect, Get Kill, Upgrade, Survive</i></b></p>
+                    
+                    <p>========================</p>
+                    <p><b>MOVE </b>: ASDW / arrow key</p>
+                    <p><b>Weapons </b>: 1-9 / mouse wheel</p>
+                    <p><b>Shoot </b>: left mouse</p>
+                    <p><b>Shield </b>: E (cannot shoot)</p>
+                    <p><b>Pickup </b>: F</p>
+                    <p><b>Reload </b>: R</p>
+
+                    <p>========================</p>
+                    <p><b>Hide/Open Chat</b>: C</p>
+                    <p><b>Add message</b>: ENTER</p>
+                    <p><b>Change Music</b>: N</p>
+                    <p><b>Help</b>: H</p>
+                    <p><b>Pause / Continue</b>: ESC</p>
+                    
+                    <p>========================</p>
+                    <p><b>Hide/Open minimap</b>: M</p>
+                    <p><b>Change view</b>: V (camara do not track player)</p>
+                    <p><b>Switch player want to track</b> (after you death): Click</p>
+                    <p><b>View minimap</b>: Q (Hold mouse, move to position you want to see on the minimap)</p>
+
+                    <p></p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
