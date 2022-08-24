@@ -1,9 +1,11 @@
 # Fighter
 
 Inspired From [CopterRoyale](https://www.coolmathgames.com/0-copter-royale)
- 
-## Survival game :gun::runner::skull::musical_note: :
 
+# GunGame2 
+## Survival gun game :gun::runner::skull::musical_note: :
+
+Hướng dẫn tiếng việt chi tiết [tại đây](https://docs.google.com/document/d/1i6kaaDRyxHvHcR8IDgjtIGnDPzou3kO3hxZOCH5PChM/edit?usp=sharing)
 
  1. [Basic Controls](#move-collect-kill-upgrade-survive)
  2.  [Advance Controls](#more-controls)
@@ -45,10 +47,10 @@ The **winner** is the **last one alive** :video_game::alien::sparkling_heart::co
 ## Objects In Game
 This game contain a lot of objects ... :deciduous_tree::volcano::gem::heart: Each object has its own ability.
 
-| # |Name | Decription | Hint
+| # |Name | Decription |ScreenShot | Hint
 |--|--|--|--|--|
-|:heart:| Energy Particles | Collect to increase **health** and **size**| Don't eat to much, **bigger** = more bullet **hit** you|
-|:deciduous_tree:| Trees | A good place to **hide**. | Shoot it to get **free energy** particles. |
+|:heart:| Energy Particles | Collect to increase **health** and **size**|![energy](screenshots/energyParticles.png) | Don't eat to much, **bigger** = more bullet **hit** you|
+|:deciduous_tree:| Trees | A good place to **hide**. | ![trees](screenshots/trees.png) | Shoot it to get **free energy** particles. |
 |:moyai:| Rocks | It is difficult to destroy, **reflect** all types of bullets. | ![rocks](screenshots/rocks.png) | Destroy it to get **powerful weapons**.
 |:gun:| Dropped Weapons | Come close and **press F** to pick up. |![dropped](screenshots/droppedWeapons.png) | You can only have **up to 4 weapons**, Pick up a new one to **drop** the current one.
 |:bomb:| Oil Barrels | Be **careful**, don't stand near when it's about to explode. | ![barrels](screenshots/barrels.png) | **Smoke** is a signal. There are **powerfull weapons** that fall off when it explodes. 
@@ -90,22 +92,21 @@ There are **7  maps**  for you:
 
 ![box](screenshots/Weapons/WeaponsBox.png)
 
-|Name| Screenshot| Decription 
+|Name| Decription 
 |--|--|--|
-| AK | ![AK](screenshots/Weapons/AK.png) | Normal gun, fast speed, low damage.  | 
-| ShotGun |![shotgun](screenshots/Weapons/Shotgun.png) | 5 bullets/shot, slow speed. | 
-| Minigun|![minigun](screenshots/Weapons/Minigun.png)| Very fast, lowest damage. | 
-| Mine|![mine](screenshots/Weapons/Mine.png) | Put bomp to the ground, will explode if someone step on. | 
-| Bazoka|![bazoka](screenshots/Weapons/Bazoka.png) | Launch a rocket, explode when touch something. | 
-| DropBomp|![dropbomp](screenshots/Weapons/DropBomp.png) | Drop a bomp from a sky. | 
-| Lazer|![lazer](screenshots/Weapons/Lazer.png) | Fast and dangerest. |
-| SnowBall|![snowball](screenshots/Weapons/SnowBall.png) | Slowdown player who are touched by bullets. |
-| SuperSnow| ![supersnow](screenshots/Weapons/SuperSnow.png) | Stun the players, then explode into a lot of snow balls. |
-| PortalGun| ![portal](screenshots/Weapons/PortalGun.png) |Used to create portal gates. |
-| RedzoneGun|![redzone](screenshots/Weapons/Redzone.png) |Used to create Red zones. |
-| Rocket|![rocket](screenshots/Weapons/Rocket.png) |Launch a rocket, and will track players in range. |
-| Turret|![turret](screenshots/Weapons/Turret.png)   | Create a clone of your seft, and shoot the nearest enemy. |
+| AK | Normal gun, fast speed, low damage.  | 
+| ShotGun | 5 bullets/shot, slow speed. | 
+| Minigun| Very fast, lowest damage. | 
+| Mine| Put bomp to the ground, will explode if someone step on. | 
+| Bazoka| Launch a rocket, explode when touch something. | 
+| DropBomp| Drop a bomp from a sky. | 
+| Lazer| Fast and dangerest. |
+| SnowBall| Slowdown player who are touched by bullets. |
+| SuperSnow| Stun the players, then explode into a lot of snow balls. |
+| PortalGun |Used to create portal gates. |
+| RedzoneGun| Used to create Red zones. |
+| Rocket| Launch a rocket, and will track players in range. |
+| Turret| Create a clone of your seft, and shoot the nearest enemy. |
 
-[:arrow_up: Back to top](#gungame2)
+[:arrow_up: Back to top](#Fighter)
 
-> Written with [StackEdit](https://stackedit.io/).
