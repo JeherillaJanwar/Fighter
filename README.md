@@ -78,31 +78,30 @@ There are **7  maps**  for you:
 [:arrow_up: Back to top](#gungame2)
 
 ## Team mode
-![team](screenshots/teamMode.png)
 
 |Mode| Decription | Screenshot |
 |--|--|--|
-| Solo | Alone, everyone is an enemy. | ![solo](screenshots/solo.png) |
-| Dual | 2 players / team | ![dual](screenshots/dual.png) |
-| Squad | 4 players / team | ![squad](screenshots/squad.png) |
+| Solo | Alone, everyone is an enemy.
+| Dual | 2 players / team.
+| Squad | 4 players / team.
 
-[:arrow_up: Back to top](#gungame2)
+[:arrow_up: Back to top](#Fighter)
 
 ## Weapons
 
 - AK | Normal gun, fast speed, low damage
 - ShotGun | 5 bullets/shot, slow speed. 
-- Minigun | Very fast, lowest damage.| 
-- Mine | Put bomp to the ground, will explode if someone step on.| 
-- Bazoka | Launch a rocket, explode when touch something.| 
-- DropBomp | Drop a bomp from a sky.| 
-- Lazer | Fast and dangerest.|
-- SnowBall | Slowdown player who are touched by bullets.|
-- SuperSnow | Stun the players, then explode into a lot of snow balls.|
-- PortalGun |Used to create portal gates.|
-- RedzoneGun | Used to create Red zones.|
-- Rocket | Launch a rocket, and will track players in range.|
-- Turret | Create a clone of your seft, and shoot the nearest enemy.|
+- Minigun | Very fast, lowest damage.
+- Mine | Put bomp to the ground, will explode if someone step on.
+- Bazoka | Launch a rocket, explode when touch something.
+- DropBomp | Drop a bomp from a sky.
+- Lazer | Fast and dangerest.
+- SnowBall | Slowdown player who are touched by bullets.
+- SuperSnow | Stun the players, then explode into a lot of snow balls.
+- PortalGun |Used to create portal gates.
+- RedzoneGun | Used to create Red zones.
+- Rocket | Launch a rocket, and will track players in range.
+- Turret | Create a clone of your seft, and shoot the nearest enemy.
 
 [:arrow_up: Back to top](#Fighter)
 
