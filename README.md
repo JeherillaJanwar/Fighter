@@ -1,11 +1,8 @@
 # Fighter
 
 Inspired From [CopterRoyale](https://www.coolmathgames.com/0-copter-royale)
-
-# GunGame2 
-## Survival gun game :gun::runner::skull::musical_note: :
-
-Hướng dẫn tiếng việt chi tiết [tại đây](https://docs.google.com/document/d/1i6kaaDRyxHvHcR8IDgjtIGnDPzou3kO3hxZOCH5PChM/edit?usp=sharing)
+ 
+## Survival game :gun::runner::skull::musical_note: :
 
  1. [Basic Controls](#move-collect-kill-upgrade-survive)
  2.  [Advance Controls](#more-controls)
@@ -64,7 +61,7 @@ This game contain a lot of objects ... :deciduous_tree::volcano::gem::heart: Eac
 ## Maps
 There are **7  maps**  for you
 
-| # |Name| Decription | Hint |
+|Name| Decription | Hint |
 |--|--|--|
 |:black_square_button:| **Flat** | Nothing here, No trees, No Rocks, No Barrels, ... | Best performance !|
 | :earth_asia: | **Normal** | Almost like the real world, full of objects. | The most beautiful scene. |
