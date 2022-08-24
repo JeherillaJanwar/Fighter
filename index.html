@@ -88,48 +88,48 @@
                 <th colspan="2" id="nameWeapon"></th>
             </tr>
             <tr>
-                <td><p>Sức chứa băng đạn:</p></td>
+                <td><p>Ammo Capacity</p></td>
                 <td><input type="number" id="maxBulls"></td>
             </tr>
             <tr>
-                <td><p>Độ trễ bắn:</p></td>
+                <td><p>Firing Delay</p></td>
                 <td><input type="number" id="delay"></td>
             </tr>
             <tr>
-                <td><p>Thời gian nạp đạn:</p></td>
+                <td><p>Reload Time</p></td>
                 <td><input type="number" id="reloadTime"></td>
             </tr>
             <tr>
-                <td><p>Số đạn / lần bắn:</p></td>
+                <td><p>Ammo / shot:</p></td>
                 <td><input type="number" id="bullsPerTimes"></td>
             </tr>
             <tr>
-                <td><p>Độ chính xác (0-1):</p></td>
+                <td><p> Accuracy (0-1):</p></td>
                 <td><input type="number" id="hitRatio"></td>
             </tr>
             <tr>
-                <td><p>Sát thương:</p></td>
+                <td><p>Damage: </p></td>
                 <td><input type="number" id="damage"></td>
             </tr>
             <tr>
-                <td><p>Độ lớn đạn:</p></td>
+                <td><p>Ammo Size</p></td>
                 <td><input type="number" id="radius"></td>
             </tr>
             <tr>
-                <td><p>Tốc độ đạn:</p></td>
+                <td><p>Bullet Speed</p></td>
                 <td><input type="number" id="speed"></td>
             </tr>
             <tr>
-                <td><p>Thời gian sống:</p></td>
+                <td><p>Life Time:</p></td>
                 <td><input type="number" id="life"></td>
             </tr>
             <tr>
                 <!-- <td>
-                    <button class="blue" onclick="oriWeaponInfo()">Mặc định</button>
+                    <button class="blue" onclick="oriWeaponInfo()">Default</button>
                 </td> -->
                 <td colspan="2">
-                    <button class="green" onclick="applyCustomWeapons()">Xác nhận</button>
-                    <button onclick="customWeapon('switch')">Hủy</button>
+                    <button class="green" onclick="applyCustomWeapons()">Confirm</button>
+                    <button onclick="customWeapon('switch')">Cancel</button>
                 </td>
             </tr>
         </table>
@@ -138,7 +138,7 @@
         <!-- The overlay -->
         <div class="overlay">
             <div class="menu">
-                <input type="text" id="ip-name"  placeholder="Enter your name...">
+                <input type="text" id="ip-name"  placeholder="Enter your nickname...">
                 <div id="color-picker-wrapper">
                     <input type="color" value="#ff0000" id="pickColor">
                 </div>
@@ -158,8 +158,6 @@
                 <div class="gr-btn">
                     <button id="duo" class="btn-play item green">Play Duo</button>
                     <button id="squad" class="btn-play item green">Play Squad</button>
-                    <button class="btn-play item blue">Join Team</button>
-                    <button class="btn-play item blue">Create Team</button>
                 </div>
                 <button id="cachchoi" class="btn-play gray">How to Play</button>
                 <div class="guide">
@@ -183,7 +181,7 @@
                     <p>========================</p>
                     <p><b>Hide/Open minimap</b>: M</p>
                     <p><b>Change view</b>: V (camara do not track player)</p>
-                    <p><b>Switch player want to track</b> (after you death): Click</p>
+                    <p><b>Switch player want to track</b> (after you die): Click</p>
                     <p><b>View minimap</b>: Q (Hold mouse, move to position you want to see on the minimap)</p>
 
                     <p></p>
