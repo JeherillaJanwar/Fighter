@@ -5,8 +5,8 @@ var RandomName = [
 	"Luke", "Henry", "Andrew", "Nathan", "Huong", "Nhien", "Hacker",
 	"Nhung", "Huynh", "Dat", "Dinh", "Hanh", "Ros", "Tay", "Japan Anti Virus",
 	"Thanh", "Hue", "Nang", "Mua", "DeadClick", "Bao", "Tam", "FuckYou",
-	"Dem", "Sang", "Cute", "Dude", "Kiss", "Hope", "Car", "God", "Ninja",
-	"Fake", "Alan", "Hoi", "Diem", "Master", "Be Friend or Die", "Chấm",
+	"Dem", "Sang", "Cute", "Dude", "hateU", "Hope", "Car", "God", "Ninja",
+	"Fake", "Alan", "Hoi", "Diem", "Master", "Be Friend or Die", "peace",
 	"Yi", "Yasuo", "Irela", "Vi", "Lux", "Sion", "Doctor", "U r mine",
 	"Jinx", "Jhin", "Roma", "Computer", "Fax", "Plane", "Sky", "Head",
 	"Tree", "Lake", "Water", "Fire", "Snow", "Mountain", "Dog", "Hóng",
@@ -16,5 +16,12 @@ var RandomName = [
 	"Hao", "Thuan", "Nga", "Huy", "Hang", "An", "Anh", "Call me",
 	"Thien", "Ngan", "<3", "Love", "Michael", "Seclo", "Play Alone",
 	"Heo", "Julia", "Jame", "Thomson", "LOL", "Ris", "Soldier",
-	"Tris", "Nhan", "Dang", "Dam", "Hi Five", "Viet Nam", "US", "BadBoys", "CoolDude", "JeherillaJanwar", "Romeo", "Ishaan"
+	"Tris", "Nhan", "Dang", "Dam", "Hi Five", "NAMASTE", "US", "BadBoys", "CoolDude", "JeherillaJanwar", 
+	"Romeo", "Ishaan", "MAD_DOGI", "BOT", "Human", "Flower", "REAL", "Fighter", "cutt.ly/328069", "~", 
+	"TimCOOK", "SteveJobs", "ElonMusk", "MonkeyPox", "Bandook", "Stockfish", "OGGY", ":)", "Cockroach", 
+	"SushiMan", "SelfMade", "Snake", "Janwar", "Python", "Swift", "HTML", "Fuse", "Newt", "Newton", 
+	"Einstein", "Bubbles", "Jeff", "POGO", "slick", "Zee", "Dost", "DhokhaDhadi", "Spam", "Cake", 
+	"Rockit", "Boss", "tesla", "idk", "Splendid Lollipop", "Respectful Knight", 
+	"Decrepit Detective", "Sizzling Sheriff", "WimpyKid", "Excited Ace", "Ancient Hamster",
+	"Telescope", "LoveThisGame", "imagine..."
 ];
