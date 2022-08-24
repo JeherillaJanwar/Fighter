@@ -11,10 +11,10 @@ var RandomName = [
 	"Jinx", "Jhin", "Roma", "Computer", "Fax", "Plane", "Sky", "Head",
 	"Tree", "Lake", "Water", "Fire", "Snow", "Mountain", "Dog", "Hóng",
 	"Cat", "Bird", "Snack", "Candy", "Huu", "Noah", "Mason", "Best Gamer",
-	"Hoang", "Hien", "Linh", "Nam", "Tam", "Hau", "Foria", "J A V  A",
+	"Hoang", "Hien", "Linh", "Nam", "Tam", "Hau", "Foria", "JAVASCRIPT",
 	"Hoa", "Thao", "Trang", "Thuy", "Huan", "Luong", "Test Game", "...",
 	"Hao", "Thuan", "Nga", "Huy", "Hang", "An", "Anh", "Call me",
 	"Thien", "Ngan", "<3", "Love", "Michael", "Seclo", "Play Alone",
 	"Heo", "Julia", "Jame", "Thomson", "LOL", "Ris", "Soldier",
-	"Tris", "Nhan", "Dang", "Dam", "Hi Five", "Viet Nam", "US"
+	"Tris", "Nhan", "Dang", "Dam", "Hi Five", "Viet Nam", "US", "BadBoys", "CoolDude", "JeherillaJanwar", "Romeo", "Ishaan"
 ];
