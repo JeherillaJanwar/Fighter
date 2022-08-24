@@ -55,7 +55,7 @@ Character.prototype.show = function(lookDir) {
         var x = this.pos.x;
         var y = this.pos.y;
         var r = this.radius * .7;
-        // vẽ chữ x xám
+
         line(x - r, y - r, x + r, y + r);
         line(x + r, y - r, x - r, y + r);
         
@@ -70,7 +70,7 @@ Character.prototype.show = function(lookDir) {
             drawPlayerWithShape(this, (this.shield ? 'Circle' : 'Pentagon'), this.vel.heading()); // nhìn theo hướng di chuyển
         }
 
-        // show health
+
         if (!this.hide) fill(200);
         else fill(70);
         textAlign(CENTER);
@@ -190,7 +190,7 @@ Character.prototype.addWeapon = function(nameWeapon) {
 
     if (!had) {
         var newWeapon = clone(weapons[nameWeapon]);
-        // newWeapon.gun = new Gun(this, newWeapon.gun);
+
         newWeapon.gun = new Gun(this, newWeapon.gunInfo);
 
         if(this.weaponBox.length < 4) {
