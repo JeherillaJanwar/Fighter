@@ -7,7 +7,7 @@ function Portal(inOrOut, x, y, connectWith, radius, life, owner) {
 
     this.life = life || 10;
     this.born = mil;
-    this.times = 0; // so lan dich chuyen
+    this.times = 0;
 
     this.grow = [];
     this.grow[0] = this.radius;
