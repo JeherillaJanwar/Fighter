@@ -45,10 +45,10 @@ The **winner** is the **last one alive** :video_game::alien::sparkling_heart::co
 ## Objects In Game
 This game contain a lot of objects ... :deciduous_tree::volcano::gem::heart: Each object has its own ability.
 
-| # |Name | Decription |ScreenShot | Hint
+| # |Name | Decription | Hint
 |--|--|--|--|--|
-|:heart:| Energy Particles | Collect to increase **health** and **size**|![energy](screenshots/energyParticles.png) | Don't eat to much, **bigger** = more bullet **hit** you|
-|:deciduous_tree:| Trees | A good place to **hide**. | ![trees](screenshots/trees.png) | Shoot it to get **free energy** particles. |
+|:heart:| Energy Particles | Collect to increase **health** and **size**| Don't eat to much, **bigger** = more bullet **hit** you|
+|:deciduous_tree:| Trees | A good place to **hide**. | Shoot it to get **free energy** particles. |
 |:moyai:| Rocks | It is difficult to destroy, **reflect** all types of bullets. | ![rocks](screenshots/rocks.png) | Destroy it to get **powerful weapons**.
 |:gun:| Dropped Weapons | Come close and **press F** to pick up. |![dropped](screenshots/droppedWeapons.png) | You can only have **up to 4 weapons**, Pick up a new one to **drop** the current one.
 |:bomb:| Oil Barrels | Be **careful**, don't stand near when it's about to explode. | ![barrels](screenshots/barrels.png) | **Smoke** is a signal. There are **powerfull weapons** that fall off when it explodes. 
