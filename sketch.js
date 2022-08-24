@@ -40,8 +40,8 @@ var gameTime = ""; // string time
 var maxSizeNow = 100;
 var weaponInfo;
 var runGame = false;
-var listMes = ['chào', 'hello', 'funny', 'best game', 'haha', 'my gun', 'awsome', 'nice', 'come on', 'beauty', 'sexy', 'cute',
-'like', 'love', 'hit', 'giết tao nè', 'thích gì', 'biến', 'lêu lêu', 'good dog', 'huhu', 'đừng giết tao', 'vãi'];
+var listMes = ['Hi', 'hello', 'funny', 'best game', 'haha', 'my gun', 'awsome', 'nice', 'come on', 'cool', 'cute',
+'like', 'nice', 'hit', 'to be the Best u need 2 beat the best', 'Good Luck', 'imagine...', 'good dog', 'huhu', 'dont kill me', 'sad'];
 
 function preload() {
     dataSound['audio/ambient_stream_01.mp3'] = loadSound('audio/ambient_stream_01.mp3');
@@ -83,7 +83,6 @@ function setup() {
 }
 
 function start() {
-    // khoi tao moi truong ban do
     gmap = new GameMap(10000, 10000, 300);
     var w = document.getElementById('worlds-select').value;
     world = worlds[w || getValueAtIndex(worlds, floor(random(getObjectLength(worlds))))];
@@ -97,7 +96,6 @@ function start() {
     reset();
     weaponInfo = new InfoWeapon();
 
-    // dung cho quadtree
     boundMap = new Rectangle(gmap.size.x / 2, gmap.size.y / 2, gmap.size.x, gmap.size.y);
     quadItems = new QuadTree(boundMap, 5);
     quadBulls = new QuadTree(boundMap, 5);
@@ -350,7 +348,7 @@ function keyPressed() {
                 break;
 
             case '/more':
-                addMessage('click here \u2665', 'Visualize music', false, color(255, 0, 0),
+                addMessage('click here \u2665', 'About me!', false, color(255, 0, 0),
                     function() {
                         window.open('https://cutt.ly/328069/')
                     });
