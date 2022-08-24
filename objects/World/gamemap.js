@@ -155,16 +155,16 @@ GameMap.prototype.showPortals = function(pi) {
 };
 
 GameMap.prototype.drawEdge = function() { // Vẽ biên
-    // dùng 4 đỉnh đê vẽ hình chữ nhât
-    var topleft = v(0, 0); // đỉnh trên trái
-    var topright = v(this.size.x, 0); // đỉnh trên phải
-    var botleft = v(0, this.size.y); // đỉnh dưới trái
-    var botright = v(this.size.x, this.size.y); // đỉnh dưới phải
+
+    var topleft = v(0, 0); 
+    var topright = v(this.size.x, 0); 
+    var botleft = v(0, this.size.y); 
+    var botright = v(this.size.x, this.size.y); 
 
     stroke(255);
     strokeWeight(3);
 
-    // Ve duong thang qua cac dinh
+
     line(topleft.x, topleft.y, topright.x, topright.y);
     line(topright.x, topright.y, botright.x, botright.y);
     line(botright.x, botright.y, botleft.x, botright.y);
