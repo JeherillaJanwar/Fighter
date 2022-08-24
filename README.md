@@ -65,7 +65,7 @@ This game contain a lot of objects ... :deciduous_tree::volcano::gem::heart: Eac
 There are **7  maps**  for you
 
 | # |Name| Decription | Hint |
-|--|--|--|--|--|
+|--|--|--|
 |:black_square_button:| **Flat** | Nothing here, No trees, No Rocks, No Barrels, ... | Best performance !|
 | :earth_asia: | **Normal** | Almost like the real world, full of objects. | The most beautiful scene. |
 | :ocean::palm_tree::sun_with_face:| **Beach** | There is an ocean here just for you. | Let's swim... |
@@ -79,7 +79,7 @@ There are **7  maps**  for you
 ## Team mode
 
 |Mode| Decription |
-|--|--|--|
+|--|--|
 | Solo | Alone, everyone is an enemy.
 | Dual | 2 players / team.
 | Squad | 4 players / team.
