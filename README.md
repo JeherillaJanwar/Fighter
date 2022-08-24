@@ -90,12 +90,8 @@ There are **7  maps**  for you:
 
 ## Weapons
 
-![box](screenshots/Weapons/WeaponsBox.png)
-
-|Name| Decription|
-|--|--|--|
-| AK | Normal gun, fast speed, low damage.| 
-| ShotGun | 5 bullets/shot, slow speed.| 
+AK - Normal gun, fast speed, low damage
+ShotGun - 5 bullets/shot, slow speed. 
 | Minigun | Very fast, lowest damage.| 
 | Mine | Put bomp to the ground, will explode if someone step on.| 
 | Bazoka | Launch a rocket, explode when touch something.| 
