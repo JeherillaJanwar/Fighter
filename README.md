@@ -92,7 +92,7 @@ There are **7  maps**  for you:
 
 ![box](screenshots/Weapons/WeaponsBox.png)
 
-|Name| Decription 
+|Name| Decription|
 |--|--|--|
 | AK | Normal gun, fast speed, low damage.| 
 | ShotGun | 5 bullets/shot, slow speed.| 
