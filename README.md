@@ -26,7 +26,7 @@ The **winner** is the **last one alive** :video_game::alien::sparkling_heart::co
 | **Shield** (on/off) | E | :radio_button: |
 | **Pick up** (weapons)| F | :large_blue_diamond: |
 
-[:arrow_up: Back to top](#gungame2)
+[:arrow_up: Back to top](#Fighter)
 
 ### More Controls
 | **Action** | **Controls** | -- |
@@ -39,24 +39,24 @@ The **winner** is the **last one alive** :video_game::alien::sparkling_heart::co
 |**Change music** (next song)| N | :musical_note: |
 |**Help** (show help in chat box)| H | :question: |
 
-[:arrow_up: Back to top](#gungame2)
+[:arrow_up: Back to top](#Figther)
 
 ## Objects In Game
 This game contain a lot of objects ... :deciduous_tree::volcano::gem::heart: Each object has its own ability.
 
-| # |Name | Decription |ScreenShot | Hint
-|--|--|--|--|--|
-|:heart:| Energy Particles | Collect to increase **health** and **size**|![energy](screenshots/energyParticles.png) | Don't eat to much, **bigger** = more bullet **hit** you|
-|:deciduous_tree:| Trees | A good place to **hide**. | ![trees](screenshots/trees.png) | Shoot it to get **free energy** particles. |
-|:moyai:| Rocks | It is difficult to destroy, **reflect** all types of bullets. | ![rocks](screenshots/rocks.png) | Destroy it to get **powerful weapons**.
-|:gun:| Dropped Weapons | Come close and **press F** to pick up. |![dropped](screenshots/droppedWeapons.png) | You can only have **up to 4 weapons**, Pick up a new one to **drop** the current one.
-|:bomb:| Oil Barrels | Be **careful**, don't stand near when it's about to explode. | ![barrels](screenshots/barrels.png) | **Smoke** is a signal. There are **powerfull weapons** that fall off when it explodes. 
-|:milky_way:| Portal gates | **IN gate** (blue) and **OUT gate** (orange), only work if 2 gates are **connected** | ![portals](screenshots/portals.png) | Portal is **one way**, you can't go backwards. |
-|:sweat_drops:| Water area | **Slowdown everything** inside, even bullets | ![water](screenshots/waterAreas.png) | You can easily escape from enemy's bullets in this area. |
-|:snowflake:| Ice area | **Speedup** players | ![ice](screenshots/iceAreas.png) | Runnaway from enemies and bullets |
-|:collision:| Danger area | **Not safety**, bombs falling here | ![danger](screenshots/boomAreas.png) | A lot of **energy particles** are created in this area.
+|Name | Decription | Hint
+|--|--|--|
+|:heart:| Energy Particles | Collect to increase **health** and **size**| Don't eat to much, **bigger** = more bullet **hit** you|
+|:deciduous_tree:| Trees | A good place to **hide**. | Shoot it to get **free energy** particles. |
+|:moyai:| Rocks | It is difficult to destroy, **reflect** all types of bullets. | Destroy it to get **powerful weapons**.
+|:gun:| Dropped Weapons | Come close and **press F** to pick up. | You can only have **up to 4 weapons**, Pick up a new one to **drop** the current one.
+|:bomb:| Oil Barrels | Be **careful**, don't stand near when it's about to explode. | **Smoke** is a signal. There are **powerfull weapons** that fall off when it explodes. 
+|:milky_way:| Portal gates | **IN gate** (blue) and **OUT gate** (orange), only work if 2 gates are **connected** | Portal is **one way**, you can't go backwards. |
+|:sweat_drops:| Water area | **Slowdown everything** inside, even bullets | You can easily escape from enemy's bullets in this area. |
+|:snowflake:| Ice area | **Speedup** players | Runnaway from enemies and bullets |
+|:collision:| Danger area | **Not safety**, bombs falling here | A lot of **energy particles** are created in this area.
 
-[:arrow_up: Back to top](#gungame2)
+[:arrow_up: Back to top](#Fighter)
 
 ## Maps
 There are **7  maps**  for you
