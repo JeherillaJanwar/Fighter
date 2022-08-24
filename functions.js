@@ -109,7 +109,7 @@ function addAICharacter() {
 }
 
 function addPlayer() {
-    // khoi tao nhan vat
+    // initialize Char
     var col = hexToRgb(document.getElementById('pickColor').value);
     var pcol = [col.r, col.g, col.b];
     p = new Player(pname, random(gmap.size.x), random(gmap.size.y), pcol, 100, 1);
@@ -168,7 +168,7 @@ function reset() {
     addPlayer();
     addAICharacter();
 
-    // khung nhin
+    // view frame
     viewport = new Viewport(p);
 
     createWorld();
@@ -216,32 +216,32 @@ function collisionBullets(t) {
 }
 
 function collisionEdge(t, bounce) {
-    //khoi tao bien luu giu
+    //initialize storage variable
     var radius = t.radius || t.info.radius;
     var top = radius;
     var left = radius;
     var bottom = gmap.size.y - radius;
     var right = gmap.size.x - radius;
 
-    // bien tren
+   
     if (t.pos.y < top) {
         t.vel.y *= -bounce;
         t.pos.y = top;
     }
 
-    //bien duoi
+    //var below
     else if (t.pos.y > bottom) {
         t.vel.y *= -bounce;
         t.pos.y = bottom;
     }
 
-    // bien trai
+
     if (t.pos.x < left) {
         t.vel.x *= -bounce;
         t.pos.x = left;
     }
 
-    // bien phai
+
     else if (t.pos.x > right) {
         t.vel.x *= -bounce;
         t.pos.x = right;
@@ -302,7 +302,7 @@ function hexToRgb(hex) {
 }
 
 function hexToRgb2(hex) {
-    // Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")
+
     var shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
     hex = hex.replace(shorthandRegex, function(m, r, g, b) {
         return r + r + g + g + b + b;
@@ -569,8 +569,7 @@ function getObjectLength(obj) {
 window.onload = () => {
     document.addEventListener('contextmenu', e => e.preventDefault());
 
-    // save original data
-    // for(var i in weapons) weapons["ori_"+i] = clone2(weapons[i]);
+
 
     document.getElementById('pickColor').value = randHex();
     var color_picker = document.getElementById("pickColor");
@@ -627,7 +626,7 @@ window.onload = () => {
 
     document.getElementById('closebtn')
         .addEventListener('mouseover', (event) => {
-            // event.target.parentElement.style.display = "none";
+   
             event.target.parentElement.style.opacity = 0;
             event.target.parentElement.style.zIndex = 0;
         });
@@ -686,7 +685,7 @@ function autoAddRedzones(step) {
 }
 
 function autoAddItems(step) {
-    // tu dong them item
+
     setInterval(function() {
         if(runGame && focused) {
             if (iArr.length > world.maxItem) {
@@ -710,7 +709,7 @@ function autoAddItems(step) {
 }
 
 function autoAddPlayers(step) {
-    // tu dong them player
+
     setInterval(function() {
         if (runGame && eArr.length < maxE) {
             var newCharacter = new AICharacter(null, random(gmap.size.x), random(gmap.size.y));
@@ -805,8 +804,4 @@ function hiding_info() {
     }
 }
 
-// Save Canvas 
-// var c= document.getElementsByTagName("canvas")...;
-// var d = c.toDataURL("image/png");
-// var w = window.open('about:blank','image from canvas');
-// w.document.write("<img src='"+d+"' alt='from canvas'/>");
+
