@@ -36,7 +36,6 @@ The **winner** is the **last one alive** :video_game::alien::sparkling_heart::co
 |**Chat** (show/hide)| C | :door: |
 |**Chat** (Add Message)| Enter | :speech_balloon: |
 |**Minimap** (show/hide)| M | :earth_asia: |
-|**Change music** (next song)| N | :musical_note: |
 |**Help** (show help in chat box)| H | :question: |
 
 [:arrow_up: Back to top](#Figther)
