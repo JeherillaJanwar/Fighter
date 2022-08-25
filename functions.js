@@ -435,15 +435,14 @@ function help() {
     addMessage("W A S D / ArrowKey: Move.");
     addMessage("LEFT-Mouse : Shoot.");
     addMessage("SCROLL-Mouse, 1->9 : Change weapon.");
-    addMessage("R : Reload.");
+    addMessage("R : Reload Weapon.");
     addMessage("F : Pickup weapon.");
     addMessage("E : Shield (can't shoot).");
     addMessage("Q (Hold): look around (minimap).");
     addMessage("M: Open/close minimap.");
-    addMessage("N: Change music.");
     addMessage("ENTER : Chat.");
     addMessage("C : Show/Hide Chat box.");
-    addMessage("V : FreeCam Mode (on/off).");
+    addMessage("V : Follow cam (on/off).");
     addMessage("Type '/help' for more option", '', false, color(200));
     addMessage("--------------------------------");
 }
