@@ -345,7 +345,7 @@ function changeSong(step) {
     if (songNow >= musics.SongList.length) songNow = 0;
     else if (songNow < 0) songNow = musics.SongList.length - 1;
 
-    notifi.push(new Notification("Song: " + musics.SongList[songNow].name, 20, null, 5000));
+    notifi.push(new Notification(musics.SongList[songNow].name, 20, null, 5000));
     createNewAudio(musics.SongList[songNow].link);
 }
 
