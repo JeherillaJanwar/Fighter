@@ -43,42 +43,7 @@ var runGame = false;
 var listMes = ['Hi', 'hello', 'funny', 'best game', 'haha', 'my gun', 'awsome', 'nice', 'come on', 'cool', 'cute',
 'like', 'nice', 'hit', 'to be the Best u need 2 beat the best', 'Good Luck', 'imagine...', 'good dog', 'huhu', 'dont kill me', 'sad'];
 
-//-----------------------
-// Start
-// PhoneControl May not work
-function setup(){
 
-    cv = createCanvas(windowWidth,windowHeight);
-    cv.parent(document.getElementById("canvasParent"));
-    y = height-20;
-
-    let config = {
-        apiKey: "AIzaSyDVeRD0P145hETu39Ryh4HM8rvlTSj4Kos",
-        authDomain: "try2-70357.firebaseapp.com",
-        databaseURL: "https://try2-70357.firebaseio.com",
-        projectId: "try2-70357",
-        storageBucket: "",
-        messagingSenderId: "99106327684"
-        };
-
-    firebase.initializeApp(config);
-    database = firebase.database();
-
-    let ref = database.ref('game');
-    ref.on('value', gotData, errData);
-}
-
-function gotData(data){
-    let moves = data.val();
-    let keys = Object.keys(moves);
-    let lastItem = keys.length
-    let k = keys[lastItem-1];
-    let lastDirection = moves[k].direction;
-    checkDirection(lastDirection)
-}
-
-// END
-//---------------------------
 function preload() {
     dataSound['audio/ambient_stream_01.mp3'] = loadSound('audio/ambient_stream_01.mp3');
 }
