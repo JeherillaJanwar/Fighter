@@ -2,10 +2,10 @@
 
 Inspired From [CopterRoyale](https://www.coolmathgames.com/0-copter-royale)
  
-## Survival game :gun::runner::skull::musical_note: :
+## Survival game :runner::skull::musical_note: :
 
  1. [Basic Controls](#move-collect-kill-upgrade-survive)
- 2.  [Advance Controls](#more-controls)
+ 2. [Advance Controls](#more-controls)
  3. [Objects In Game](#objects-in-game)
  4. [Maps](#maps)
  5. [Team mode](#team-mode)
