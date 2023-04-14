@@ -1,6 +1,8 @@
 # Fighter
 
 Inspired From [CopterRoyale](https://www.coolmathgames.com/0-copter-royale)
+
+```DEMO: ``` <a href="https://fighter.cleverapps.io/">https://fighter.cleverapps.io/</a>
  
 ## Survival game :runner::skull::musical_note: :
 
